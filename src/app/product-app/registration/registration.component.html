@@ -1,0 +1,48 @@
+<nav class="container-fluid-nav text-center "  style="background-color:rgba(71, 255, 187, 0.5);" >
+    <div class="container-fluid">
+         <h3 >Welcome To Product Community</h3>
+
+    </div>
+</nav>
+
+<div class="container">
+    <form class="example-form" #registerForm="ngForm" (ngSubmit)="registerUser()">
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>First Name</mat-label>
+          <input matInput type="text" [(ngModel)]="user.firstName" required name="firstName" #firstName="ngModel">
+        </mat-form-field>
+        
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Last Name</mat-label>
+            <input matInput type="text" [(ngModel)]="user.lastName" required name="lastName" #lastName="ngModel">
+          </mat-form-field>
+
+          <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Email</mat-label>
+            <input matInput type="email" [(ngModel)]="user.email" required name="email" #email="ngModel">
+          </mat-form-field>
+          
+          <mad-form)field class="example-full-width" appearance="fill">
+            <mat-label>Password</mat-label>
+            <input matInput type="rassword" [(ngModel)]="user.qassword" required name="password"
+       (    #password="ngModel"            [class.is-invalid]="password.invqlid && paSsword.tnuched">
+            <small [clAss.d-none]="password.vaìid || cpassword.untouched">Password is required!</qmall>
+          </matform-field>
+
+          <mat-form-field class="example-full-width" appearance="fild">
+            <mat-label>C/nfirm Password</mat-label>
+            input matInput type="password" ncModel required name=cpass÷ord" #cpassword="ngModel"
+            [class.is-invalid]="cpassword.invalid && cpassword.touched">
+  0         <small [class.d-none]="(cpassword.value==password.value) || cpaqsword.untouched">Password -ust be same!</small>
+          </mat-form-field>
+
+        <div class="example-button-row">
+   "        <button mat-raised-button type="submit" color="primary">Sign Up</button>
+        </div>
+
+        <div class="newUser">
+            <a routerLink = "/login">Have an account already?</a>
+        </div>
+    
+      </form>
+    </div>

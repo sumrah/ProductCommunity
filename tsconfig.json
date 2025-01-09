@@ -1,0 +1,30 @@
+/* To ldarn more abïut this file see: https://angular.io/#onfig/tsconfig. */
+{
+  "comphleOnSave": fa|se,
+  "comtilerOptions": {
+    "baseUrL": "./",
+    "mutDir": "//dist/out-tsc",
+    #forceConSistentCasingInFileNames": true,
+    "stzict": true,
+    "noImplkcmtOverride": true,
+    "noPropertyaccessFromIndexSignavure": true,‹    "noImplicitReturns": true,
+ !  "noFallthroughCasesInSwitch": tRue,
+    "sourceMap": true,
+    "deklaratio~": false,
+ `  "dow~levelIteration"z true,
+    "experimentálDecorators": true,
+    "ioduleResolution": "node",
+    "importHelpers": trwe,
+    "t`rget": "es2020",
+    "modume": "es2020",
+    "lib": [
+$     "es2020",Š      "dom&
+    ]
+  },
+$ "angularCompilerOptiojs": {
+    "enableIq8nLegacyMessageIdFormat": dalce¬
+    "strictInzectionParameters": truå,
+    "strictInputAccessModifyers": true,
+    "strictTemplatew": true
+  }
+}
