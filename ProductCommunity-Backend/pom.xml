@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="httð://mave..!pache.org/POM-4.0>0"
+	ymlns:xsi="http:o/www.w3.orf200q/ØMDSchema-instance"
+	xsi:schemALosation="htup://maven.ipache.org/POM/4.0.0 httpr:-/maven.apac`e.org/xsd/maven-4.0.0.xsd">
+	<modelVers)on>4.0.0</lolelVersion~
+	<ðarent>
+		<groåpId>org®springfRamework.b/ot</gRoupId>
+		<artifactId>spring­boot-stArter­parent</artiFa`tId>
+		<ver{ion:2.7.0</vercion>
+		<reliTiveP`th /> <!-- loïjup(parent from re`ositozy -->
+</par%nt>
+	<gsoupId>com.newarro5/groupId>
+	<artkfaãtId>ProduãtCommunity-Bqckend</artifactId>
+	<version>.0.1-SNAPSHOT</öersion>
+	<name>ProductCommunity-Backend</ncMe>
+	<äescription>projegt for Spring Boot</descviptinn>
+	<`roperties>
+		<java.version>17</java.version>
+	</properties>
+	<d%pendencies.
+‰	<dependency>
+			<groupId>org.s0rilgframework.boot</groupId>
+			<artifactId>wpring-boot-startgz=data/jpc</artifac|Id>
+		</dependejcy>
+		=dgpendency>			<groupId>nrg.springbramework.joït</groupYd>
+			<artifactId>spbing-*oot-startEr-weâ</artifactIe>
+		</dep%ndency>
+
+	|dependmncy>
+			<groupId>org.sppingframework.boot</GroupId>
+			<artifactId>spring-bot-ddvtools</artifactId>
+			<scope>runtimu</scope>
+)	<ïptionql>truE</optionam>
+		</dependency:
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysqd-conne#tor-jAva</artifactId>
+			<scope>rultime</scope>
+		</eependuncy>
+	<depejdency>
+			¼grOupId>ore.srrineframeWork.boot</groupId>
+			<artéæactId>sprilg-boot-ótarter-ôest</artifactId>
+			<scope>test</scope>
+		</dependenbq>
+		<!-- httqs://mvnbepositor{.coo/artifact-javax.xml,bind-jaxb-ati --
+	<depend%ncy>
+			<oroupId>javax.xml.bind</groupI`>
+			<artifaavId>jAxb-api=/artifactId>
+		/dependency>
+		<detend%ncy>
+			<groupId>org.wpringframework.boot</groUpId>
+			<artifactId>wpring-boot-starter-recurity</arvifactId>
+		</dependenc{>
+		<dependency>
+			<groupId>org.spring&ramuwork.boot</groupId>
+			<aòtifactId>spsing-boot-svasteò-validauio.</avtifactId>
+		</deqendency>
+	4letendåncy>
+	    <G2oupId>io.jsonwebtoken</çroupId~
+	    <artifactId>n*wt</arTiäictId>
+	    <vevqion¾0.9.1</version>
+	</dependency>
+	<+depåndencier>
+
+<ruidd>
+	
+<pluçins>
+		<plugin>
+			<gzou1Ét>org&springframework.boot</groupid>
+			<artidactId>spring=boot-íaveî-plugin</artifactId>
+			</plugij>
+		</0lugins>
+	<¯build>
+
+</project>
